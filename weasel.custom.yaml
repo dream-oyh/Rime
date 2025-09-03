@@ -1,0 +1,40 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Tue Sep  2 13:10:22 2025"
+  rime_version: 1.13.1
+patch:
+  style:
+    color_scheme: oyh
+    color_scheme_dark: oyh
+    horizontal: true
+    inline_preedit: true
+    boder_color: 0xFFFFFF
+    font_point: 12
+    label_font_point: 12
+    layout:
+      margin_x: 0
+      margin_y: 0
+      hilite_padding: 6
+      round_corner: 5
+      corner_radius: 14
+
+  preset_color_schemes:
+    oyh:
+      back_color: 0xFFFFFF
+      candidate_format: "%c. %@"
+      candidate_text_color: 0x000000
+      comment_text_color: 0x999999
+      font_face: "Microsoft YaHei"
+      hilited_candidate_back_color: 0xd8568a
+      hilited_candidate_text_color: 0xFFFFFF
+      text_color: 0x424242
+      name: "oyh皮肤"
+
+  show_notifications_when: appropriate
+
+  app_options:
+    Code.exe: # Visual Studio Code
+      ascii_mode: true
+      vim_mode: true
