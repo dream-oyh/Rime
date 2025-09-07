@@ -8,7 +8,10 @@ version: "2021.02.07"
 sort: by_weight                 # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
 use_preset_vocabulary: true     # true 或 false，选择是否导入预设词汇表【八股文】
 import_tables:
-  - luna_pinyin
-  - oyh_dict
+  - dicts/oyh_personal  # 个人自用词库
+  - dicts/silk_song   # 丝之歌自用词库
+  - dicts/simp  # 最简拼音词库
+  - dicts/simp-ext  # 最简拼音词库拓展词库 
+  - dicts/embed # 嵌入式开发用词
 ...
 

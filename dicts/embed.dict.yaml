@@ -1,0 +1,14 @@
+﻿
+---
+name: embed
+version: "2025.09.04"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+报文	bao wen	999
+多帧传输	duo zhen chuan shu  9999
+连续帧	lian xu zhen	999
+流控帧	liu kong zhen
+网络层	wang luo ceng
+诊断仪	zhen duan yi

@@ -27,16 +27,35 @@
 #
 
 ---
-name: oyh_dict
+name: oyh_personal
 version: "2020.08.03"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
-大模型	da mo xing
+不吱声	bu zhi sheng	999
+大模型	da mo xing  9999
+第一个	di yi ge	999
+焊板子	han ban zi	99999
+机械	ji xie	99999
+机械院	ji xie yuan	999
+开吗	kai ma	9999
+看看	kan kan
+秋招	qiu zhao
+收到	shou dao	99999
+刷写	shu xie	999
+未发送	wei fa song	999
+未响应	wei xiang ying
 文件夹	wen jian jia
 勿相忘	wu xiang wang
+几项	xi xiang	999
+犀重	xi zhong
 先装	xian zhuang	99999
 小鹤	xiao he	99999
-这啥	zhe sha	999
-坐标转换	zuo biao zhuan huan
+谢邀	xie yao
+星之折痕	xing zhi zhe hen	999
+已发送	yi fa song	999
+怎么个事	zen me ge shi
+这啥	zhe sha	99999
+中南大学	zndx
+坐标转换	zuo biao zhuan huano
