@@ -1,0 +1,56 @@
+customization:
+  distribution_code_name: Squirrel
+  distribution_version: 0.17.4
+  generator: "Squirrel::UIStyleSettings"
+  modified_time: "Tue Sep  2 13:10:22 2025"
+  rime_version: 1.13.1
+patch:
+  style:
+    # --- 核心修改部分 ---
+    candidate_list_layout: linear # 使用新的横排参数
+    text_orientation: horizontal # 确保文字方向为水平
+
+    # --- 边框与边距设置 ---
+    border_width: 1 # 设定一个大于0的边框宽度，让边框和边距可见
+    border_color: 0xCCCCCC # 建议使用一个可见的颜色来测试，纯白可能看不到
+    corner_radius: 8 # 您已设置了圆角
+
+    # --- 边距与填充 ---
+    margin_x: 2 # 候选框外边距
+    margin_y: 2 # 候选框外边距
+    hilite_padding: 2 # 高亮候选词的内边距
+    round_corner: 2 # 高亮背景的圆角
+
+    # --- 其他样式设置 ---
+    color_scheme: oyh
+    color_scheme_dark: oyh
+    inline_preedit: true
+    font_point: 17
+    label_font_point: 17
+
+  # --- 您的颜色方案 ---
+  preset_color_schemes:
+    oyh:
+      name: "oyh皮肤"
+      back_color: 0xFFFFFF
+      candidate_format: "%c. %@"
+      candidate_text_color: 0x000000
+      comment_text_color: 0x999999
+      font_face: "Microsoft YaHei"
+      hilited_candidate_back_color: 0xd8568a
+      hilited_candidate_text_color: 0xFFFFFF
+      text_color: 0x424242
+
+  # --- 其他配置 ---
+  show_notifications_when: appropriate
+
+  app_options:
+    com.microsoft.VSCode: # Visual Studio Code
+      ascii_mode: true
+      vim_mode: true
+    com.trae.app:
+      ascii_mode: true
+      vim_mode: true
+    com.google.antigravity:
+      ascii_mode: true
+      vim_mode: true

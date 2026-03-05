@@ -1,2 +1,3 @@
 build/
 *.userdb/
+.DS_Store/
