@@ -34,18 +34,21 @@ use_preset_vocabulary: true
 ...
 
 有神么  you shen me	0
+那不错  na bu cuo	9999
 不吱声	bu zhi sheng	999
 大模型	da mo xing  9999
 第一个	di yi ge	999
 对咯	dui lo	99999
 范围	fan wei	999
 焊板子	han ban zi	99999
+叽里咕噜	ji li gu lu
 机械	ji xie	99999
 机械院	ji xie yuan	999
 开吗	kai ma	9999
 看看	kan kan
+两栖	liang xi    9999
 秋招	qiu zhao
-是什么	shi shen me	99999
+啥	sha	999999
 是什么	shi shen me	99999
 是神么	shi shen me	0
 收到	shou dao	99999
@@ -63,6 +66,7 @@ use_preset_vocabulary: true
 已发送	yi fa song	999
 有什么	you shen me	99999
 怎么个事	zen me ge shi
+嗻	zhe
 这啥	zhe sha	99999
 自启动	zi qi dong	999
 中南大学	zndx
